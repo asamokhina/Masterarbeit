@@ -48,12 +48,12 @@ def main():
     google_ddg_rel_google =  calc_relative(google_ddg, total_google)
     google_ddg_rel_ddg =  calc_relative(google_ddg, total_ddg)
 
-    print("Bing-Google overlap relative to Bing:\t", bing_google_rel_bing, "-", bing_google, "of",  total_bing )
-    print("Bing-Google overlap relative to Google:\t", bing_google_rel_google, "-", bing_google, "of",  total_google )
-    print("Bing-DDG overlap relative to Bing:\t", bing_ddg_rel_bing, "-", bing_ddg, "of",  total_bing )
-    print("Bing-DDG overlap relative to DDG:\t", bing_ddg_rel_ddg, "-", bing_ddg, "of",  total_ddg )
-    print("Google-DDG overlap relative to Google:\t", google_ddg_rel_google, "-", google_ddg, "of",  total_google )
-    print("Google-DDG overlap relative to DDG:\t", google_ddg_rel_ddg, "-", google_ddg, "of",  total_ddg )
+    print("Bing-Google overlap relative to Bing:\t", bing_google_rel_bing, "–", bing_google, "of",  total_bing )
+    print("Bing-Google overlap relative to Google:\t", bing_google_rel_google, "–", bing_google, "of",  total_google )
+    print("Bing-DDG overlap relative to Bing:\t", bing_ddg_rel_bing, "–", bing_ddg, "of",  total_bing )
+    print("Bing-DDG overlap relative to DDG:\t", bing_ddg_rel_ddg, "–", bing_ddg, "of",  total_ddg )
+    print("Google-DDG overlap relative to Google:\t", google_ddg_rel_google, "–", google_ddg, "of",  total_google )
+    print("Google-DDG overlap relative to DDG:\t", google_ddg_rel_ddg, "–", google_ddg, "of",  total_ddg )
 
 if __name__ == "__main__":
     main()
